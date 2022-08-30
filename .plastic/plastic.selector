@@ -1,0 +1,4 @@
+repository "JOGO DA TAPIOCA@unity__czg5_pmzaOGDw@cloud"
+  path "/"
+    br "/main"
+    co "/main"

@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 49f452ff9a60d5643ad3db311c708a85, type: 3}
-  m_Name: Day 3
+  m_Name: Day 7
   m_EditorClassIdentifier: 
-  day: 3
-  holiday: 1
+  day: 7
+  holiday: 0
