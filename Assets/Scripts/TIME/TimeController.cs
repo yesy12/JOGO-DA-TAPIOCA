@@ -92,8 +92,7 @@ public class TimeController: MonoBehaviour{
         Pega de forma automática todos os objetos do tipo ScriptableObject, armazenado
         no diretorio path_assets e adiciona na Lista 
         */
-        string path_assets = "Assets/Objects/Time/Day";
-        var assets_scriptableObejcts = AssetDatabase.FindAssets("",new[]{path_assets});
+        var assets_scriptableObejcts = AssetObjectsController.returnAndsearchAssets("Assets/Objects/Time/Day");
 
         for(int i = 0; i < assets_scriptableObejcts.Length; i++){
             string pathNameAsset = AssetDatabase.GUIDToAssetPath(assets_scriptableObejcts[i]);
