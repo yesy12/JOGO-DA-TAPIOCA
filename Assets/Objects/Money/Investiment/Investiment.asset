@@ -14,5 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 0
   name: 
-  rate: 0
-  timeMax: 0
+  rate: 0.1
+  timeMax: 2
+  valueMin: 30
+  valueCurrent: 0
+  expired: 0
